@@ -1,0 +1,28 @@
+{
+  "name": "support-deskapp",
+  "version": "1.0.0",
+  "description": "Support Desk App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "author": "TeeTech",
+  "license": "MIT",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "concurrently": "^9.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.0"
+  },
+  "devDependencies": {
+    "babel-preset-react-app": "^10.0.1",
+    "nodemon": "^3.1.7"
+  }
+}
