@@ -8,8 +8,8 @@ const connectDB = async() =>{
 const connectDB = async() =>{
   try{
     const conn = await mongoose.connect(process.env.MONGO_URL,{
-      maxPoolSize: 20,     //maximum number of connections in the pool
-      minPoolSize: 5,      // starting number of connections
+      maxPoolSize: 20,  
+      minPoolSize: 5, 
       serverSelectionTimeoutMS: 5000,
     })
     console.log(`Mongoose Connected: ${conn.connection.host}`.blue.underline.bold)
